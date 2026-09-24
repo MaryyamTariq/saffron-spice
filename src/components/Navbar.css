@@ -1,0 +1,16 @@
+.nav-links.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav-links a.active {
+  color: #e67e22;
+  font-weight: bold;
+}
